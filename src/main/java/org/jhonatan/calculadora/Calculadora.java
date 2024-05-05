@@ -5,6 +5,11 @@ package org.jhonatan.calculadora;
  */
 public class Calculadora {
 
+    //obliga a nuestra aplicacion a no crear una instancia de calculadora
+    private Calculadora() {
+
+    }
+
     //metodo con varargs numero de variables de argumento
     public static int sumar(int... argumentos) {
         //lo recorremos con un for y vamos sumando

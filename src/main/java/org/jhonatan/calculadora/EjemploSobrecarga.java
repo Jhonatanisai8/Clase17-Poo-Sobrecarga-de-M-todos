@@ -6,8 +6,6 @@ package org.jhonatan.calculadora;
 public class EjemploSobrecarga {
 
     public static void main(String[] args) {
-        //creacion una intancia de calculadora
-        Calculadora calculadora = new Calculadora();
         //   System.out.println("\nProvando los diferentes metodo:");
         System.out.println("Sumar int: " + Calculadora.sumar(10, 5));
         System.out.println("Suma float: " + Calculadora.sumar(10.0f, 5f));
