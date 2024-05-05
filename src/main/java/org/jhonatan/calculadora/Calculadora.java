@@ -1,7 +1,6 @@
 package org.jhonatan.calculadora;
 
 /**
- *
  * @author Jhonatan
  */
 public class Calculadora {
@@ -13,6 +12,10 @@ public class Calculadora {
     public float sumar(float x, float y) {
         return x + y;
     }
+
+    /*public long sumar(long x, long y) {
+        return x + y;
+    }*/
 
     public float sumar(int i, float j) {
         return i + j;
