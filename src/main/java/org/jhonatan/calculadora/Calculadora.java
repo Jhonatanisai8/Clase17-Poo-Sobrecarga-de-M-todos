@@ -5,6 +5,16 @@ package org.jhonatan.calculadora;
  */
 public class Calculadora {
 
+    //metodo con varargs numero de variables de argumento
+    public int sumar(int... argumentos) {
+        //lo recorremos con un for y vamos sumando
+        int total = 0;
+        for (int i : argumentos) {
+            total += i;
+        }
+        return total;
+    }
+
     public int sumar(int a, int b) {
         return a + b;
     }
@@ -16,7 +26,6 @@ public class Calculadora {
     /*public long sumar(long x, long y) {
         return x + y;
     }*/
-
     public float sumar(int i, float j) {
         return i + j;
     }
