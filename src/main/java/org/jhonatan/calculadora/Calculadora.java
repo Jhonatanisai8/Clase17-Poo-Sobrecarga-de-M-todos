@@ -15,6 +15,25 @@ public class Calculadora {
         return total;
     }
 
+    //puedo combinar argumentos
+    public float sumar(float a, int... argumentos) {
+        //lo recorremos con un for y vamos sumando
+        float total = 0;
+        for (int i : argumentos) {
+            total += i;
+        }
+        return total;
+    }
+
+    public double sumar(double... varargs) {
+        //lo recorremos con un for y vamos sumando
+        double total = 0;
+        for (double i : varargs) {
+            total += i;
+        }
+        return total;
+    }
+
     public int sumar(int a, int b) {
         return a + b;
     }
